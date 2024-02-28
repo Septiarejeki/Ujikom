@@ -12,6 +12,7 @@ import Register from "../views/Register.vue";
 import Profil from "../views/Profil.vue";
 import PageOrder from "../views/PageOrder.vue"
 import Cheseecuit_kategori from "../views/Cheseecuit_kategori.vue"
+// import Cuitbogel_kategori from "../views/Cuitbogel_kategori.vue"
 import store from "../store";
 
 
@@ -46,6 +47,11 @@ const routes = [
         name: "Contact",
         component: Contact,
     },
+    // {
+    //     path: " /cuitbogel_kategori",
+    //     name: "Cuitbogel_kategori",
+    //     component: Cuitbogel_kategori,
+    // },
     {
         path: "/brands",
         name: "Brands",
@@ -58,7 +64,7 @@ const routes = [
         component: Categories,
     },
     {
-        path: "/detail_produk",
+        path: "/cheseecuit_kategori",
         name: "Cheseecuit_kategori",
         component: Cheseecuit_kategori,
     },
