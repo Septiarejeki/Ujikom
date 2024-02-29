@@ -1,34 +1,40 @@
 <template>
-  <br><br><br>
-  <section class="relative overflow-hidden bg-gray-100">
-  <img class="absolute top-0 h-full w-full object-cover object-center opacity-30" src="/images/ZbQYxs58uj_TXVLLRtSaa.png" />
+   <button type="submit" class="group mt-4 mr-2 mb-4 flex cursor-pointer text-left text-xl font-semibold leading-tight text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:ml-8 ml-4 h-7 w-7 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </button>
+  <div class="mx-auto my-10 w-screen max-w-screen-3xl px-10">
+  <div class="flex rounded-xl bg-white py-2 px-2 text-gray-700 shadow-lg shadow-pink-200">
+    
+  
+    
 
-  <div class="bg-white/60 relative mx-auto flex h-full w-full flex-col items-center justify-center px-4 py-12 backdrop-blur-md sm:px-6 sm:py-16 lg:px-8 lg:py-20">
-    <h2 class="-mx-4 px-4 pt-4 pb-6 text-3xl text-blue-600 sm:text-4xl xl:text-5xl">Our <span class="font-bold">Growth</span></h2>
+<form class="max-w-sm mx-auto">
+  <div class="mb-4">
+    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
+    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required />
+  </div>
+  <div class="mb-5">
+    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone Number</label>
+    <input type="password" id="password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required />
+  </div>
+  
+<form class="max-w-sm mx-auto">
+  <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+  <textarea id="message" rows="4" class="block p-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+</form>
 
-    <div class="mx-auto grid max-w-screen-lg grid-cols-1 gap-y-2 gap-x-4 text-center sm:mt-9 sm:text-left md:grid-cols-4">
-      <div class="bg-white/10 relative mb-3 rounded-3xl border px-12 py-10 text-left shadow backdrop-blur-lg lg:px-12">
-        <img src="/images/sVmJ8ze9vYMOTpkgCk8Xb.png" alt="" />
-        
-        <p class="relative mt-5 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloremque vel</p>
-      </div>
+  <div class="flex items-start mb-5">
+    <div class="flex items-center h-5">
+      <input id="terms" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+    </div>
+    <label for="terms" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a></label>
+  </div>
+  <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register new account</button>
+</form>
 
-      <div class="bg-white/10 relative mb-3 rounded-3xl border px-12 py-10 text-left shadow backdrop-blur-lg lg:px-12">
-        <p class="relative text-3xl font-black text-blue-600 sm:text-3xl">51%</p>
-        <p class="relative mt-5 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloremque vel</p>
-      </div>
-
-       <div class="bg-white/10 relative mb-3 rounded-3xl border px-12 py-10 text-left shadow backdrop-blur-lg lg:px-12">
-        <p class="relative text-3xl font-black text-blue-600 sm:text-5xl">51%</p>
-        <p class="relative mt-5 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloremque vel</p>
-      </div>
-
-      <div class="bg-white/10 relative mb-3 rounded-3xl border px-12 py-10 text-left shadow backdrop-blur-lg lg:px-12">
-        <p class="relative text-3xl font-black text-blue-600 sm:text-5xl">8529+</p>
-        <p class="relative mt-5 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloremque vel</p>
-      </div>
     </div>
   </div>
-</section>
 
 </template>

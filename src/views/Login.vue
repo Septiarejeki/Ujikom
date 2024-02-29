@@ -3,8 +3,8 @@
   
   <div class="flex w-96 flex-col space-y-5 rounded-lg border py-10 px-5 shadow-xl mx-auto">
     <div class="mx-auto mb-2 space-y-3">
-      <h1 class=" text-3xl font-bold text-gray-700" align="center">LOGIN</h1>
-      <p class="text-gray-500">Login to access your account</p>
+      <h1 class=" text-2xl font-bold text-gray-700" align="center">LOGIN</h1>
+      <p class=" text-1xl text-gray-600">Login to access your account</p>
     </div>
   
     <div>
@@ -21,7 +21,7 @@
       </div>
     </div>
   
-    <button class="rounded-lg bg-blue-600 py-3 font-bold text-white">Login</button>
+    <button class="rounded-lg bg-blue-800 py-3 font-bold text-white">Login</button>
   </div>
   </div>
 </template>
